@@ -32,12 +32,6 @@
                                     <option value="School_of_Science_and_Engineering">School of Science and Engineering</option>
                                     <option value="School_of_Petroleum_Engineering">School of Petroleum Engineering</option>
                             </select><br>
-            Intake : 
-            <br>
-            10 : <input type="radio" name="intake" value="10">
-            <br>
-            11 : <input type="radio" name="intake" value="10">
-            <br>
             Courses        :
             <br>
             Web Development : <input type="radio" name="course" value="Web_Development">
