@@ -3,6 +3,8 @@
     <body>
     <?php
 
+    // yang ani kira kamu macam assign variables gitu ya?
+
     $studentName = $_POST['studentName'];
     $studentId = $_POST['studentId'];
     $studentEmail =  $_POST['studentEmail'];
