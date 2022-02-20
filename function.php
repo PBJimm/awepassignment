@@ -11,8 +11,8 @@
 
     if(empty($studentName)){
         $empty_name = 'Please Insert Your Full Name';
-    } elseif (strlen($studentName) < 3){
-        $empty_name = 'Your name should not be less than 3';
+    } elseif (strlen($studentName) < 6){
+        $empty_name = 'Your name should not be less than 6';
     }
     if(empty($studentId)){
         $empty_id = 'Please Insert Your Student ID';
