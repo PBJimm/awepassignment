@@ -3,6 +3,8 @@
     <body>
     <?php
 
+    $msg = ""
+
             if (isset($_POST['submit'])){
                 $studentName = $_POST['studentName'];
 
