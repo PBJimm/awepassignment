@@ -6,7 +6,9 @@
         <form action="function.php" method="post">
         <form method="post">
             Student Name   : <input type="text" name="studentName" placeholder="Student Name"><br>
-                            <?php ?>
+                            <?php if(isset($empty_name)) { ?>
+                                <p><?php echo $empty_name ?></p>
+                           <?php } ?>
             Student ID     : <input type="number" name="studentId" placeholder="Student ID"><br>
             Student E Mail : <input type="email" name="studentEmail" placeholder="studentid@student.pb.edu.bn"><br>
             Student School : <input type="text" name="studentSchool" placeholder="E.g SICT"><br>
