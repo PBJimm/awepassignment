@@ -47,7 +47,7 @@
     } 
     // the name yang $empty_school atu basically macam nama function, untuk di panggil function atu arah index.php
 
-    include('function.php');
+    include('index.php');
 
     
     ?>
