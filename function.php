@@ -25,12 +25,12 @@
     if(empty($studentCourse)){
         $empty_course = 'Please Insert Your Course';
     } elseif (strlen($studentCourse) < 6){
-        $empty_course = 'Your student course should not be less than 6'
+        $empty_course = 'Your student course should not be less than 6';
     }
     if(empty($studentSchool)){
         $empty_school = 'Please Insert Your School';
     } elseif (strlen($studentSchool) < 6){
-        $empty_school = 'Your  schoool name should not be less than 6'
+        $empty_school = 'Your  schoool name should not be less than 6';
     }
 
     include('index.php');
