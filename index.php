@@ -48,10 +48,8 @@
                             <?php if(isset($empty_course)) { ?>
                                 <p><?php echo $empty_course ?></p>
                            <?php } ?>
-            <input type="submit" value="Submit" name="submit" action="ccalist.php">
-            <input type="reset" value="reset" name="reset">  
 
-            <table>
+        <table>
             
             <tr>
                 <th>Name of Club</th>
@@ -89,8 +87,12 @@
                 <td><input type="checkbox" name="tick" value="Football_Club"></td>
             </tr>
 
-            </table>    
-     
+        </table>    
+                    
+            <input type="submit" value="Submit" name="submit">
+            <input type="reset" value="reset" name="reset">  
+
+           
         </form>
 
        
