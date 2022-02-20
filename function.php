@@ -3,24 +3,12 @@
     <body>
     <?php
 
-            $studentName = $_POST['studentName'];
-            $studentId = $_POST['studentId'];
-            $studentEmail = $_POST['studentEmail'];
-            $school = $_POST['school'];
-            $course = $_POST['course'];
-            
-            echo "
+            if (isset($_POST['submit'])){
+                $studentName = $_POST['studentName'];
 
-            Student Name : $studentName
-            <br>
-            Student ID : $studentId
-            <br>
-            Student Email : $studentEmail
-            <br>
-            School : $school
-            <br>
-            Courses : $course
-            ";
+                if (strlen($studentName) < 3)
+                $msg = '<font color="red"> Please check your name</font>';
+            }
 
             
           
