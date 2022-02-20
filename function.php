@@ -16,13 +16,13 @@
         $empty_id = 'Please Insert Your Student ID';
     }
     if(empty($studentEmail)){
-        $empty_id = 'Please Insert Your Student Email';
+        $empty_email = 'Please Insert Your Student Email';
     }
     if(empty($studentCourse)){
-        $empty_id = 'Please Insert Your Course';
+        $empty_course = 'Please Insert Your Course';
     }
     if(empty($studentSchool)){
-        $empty_id = 'Please Insert Your School';
+        $empty_school = 'Please Insert Your School';
     }
 
     include('index.php');
