@@ -19,9 +19,12 @@
                     }    
     </style>
     <body>
+        <!-- action represent sending all these data to other place -->
+        <!-- we use the POST method because we want the data to be secured and not appearing at the link -->
         <form action="function.php" method="post">
         <form method="post">
             Student Name   : <input type="text" name="studentName" placeholder="Student Name"><br>
+                            
             Student ID     : <input type="number" name="studentId" placeholder="Student ID"><br>
             Student E Mail : <input type="email" name="studentEmail" placeholder="Student E Mail"><br>
             Student School : <select name="school">
