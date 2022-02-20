@@ -3,7 +3,7 @@
     <body>
     <?php
 
-echo $msg
+echo $msg;
             $msg = "";
 
             if (isset($_POST['submit'])){
