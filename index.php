@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
     <body>
+        
         <!-- action represent sending all these data to other place -->
         <!-- we use the POST method because we want the data to be secured and not appearing at the link -->
+        <!-- as you can see there are php tag underneath the input tag, this is to validate the error message the was written on function.php file -->
+        <!-- basically what it means is that, ku buat function if else nya arah function.php punya file then bawah ani tani show the error message atu -->
+        <!-- validation reference link - https://youtu.be/MMHUxT1pSMg -->
+
         <form action="function.php" method="post">
         <form method="post">
             Student Name   : <input type="text" name="studentName" placeholder="Student Name"><br>

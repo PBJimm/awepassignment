@@ -16,6 +16,7 @@
     }
     // basically what it does here, arah elseif atu ia gtau kalau input name mu kurang daripada 6 then ia keluarkan the statement atu, strlen means string lenght
     // tapinya take note, this only happens if kamu buat kurang daripada 6. sekiranya kalau kamu termiss enter nama atu then ia kan keluarkan please insert your fullname atu
+    // reference link -  https://youtu.be/MMHUxT1pSMg
 
     if(empty($studentId)){
         $empty_id = 'Please Insert Your Student ID';
@@ -24,6 +25,7 @@
     }
     // sama juanya disini kalau id kamu atu kurang daripada 6 then kira atu error lah jua
     // sama juanya disini macam diatas kalau ketinggalan id ia keluarkan the insert your student id atu, and vice versa
+    // reference link -  https://youtu.be/MMHUxT1pSMg
 
 
     if(empty($studentEmail)){
