@@ -26,22 +26,30 @@
             Student E Mail : <input type="email" name="studentEmail" placeholder="Student E Mail"><br>
             Student School : <select name="school">
                                     <option>Schools</option>
-                                    <option value="sict">School of Information, Communication and Technology</option>
-                                    <option value="sbs">School of Business Studies</option>
-                                    <option value="shs">School of Health Science</option>
-                                    <option value="sse">School of Science and Engineering</option>
-                                    <option value="spe">School of Petroleum Engineering</option>
+                                    <option value="School_of_Information_Communication_and_Technology">School of Information, Communication and Technology</option>
+                                    <option value="School_of_Business_Studies">School of Business Studies</option>
+                                    <option value="School_of_Health_Science">School of Health Science</option>
+                                    <option value="School_of_Science_and_Engineering">School of Science and Engineering</option>
+                                    <option value="School_of_Petroleum_Engineering">School of Petroleum Engineering</option>
                             </select><br>
-            Courses        : <select name="courses">
-                                    <option>Courses</option>
-                                    <option value="wdt">Web Development</option>
-                                    <option value="itn">Information Network & Security</option>
-                                    <option value="is">Information System</option>
-                                    <option value="lib">Library</option>
-                                    <option value="bna">Business in Administration</option>
-                                    <option value="bnf">Business in Finance</option>
-                                    <option value="bhr">Business in Human Resource</option>
-                            </select><br>  
+            Intake : 
+            <br>
+            10 : <input type="radio" name="intake" value="10">
+            <br>
+            11 : <input type="radio" name="intake" value="10">
+            <br>
+            Courses        :
+            <br>
+            Web Development : <input type="radio" name="course" value="Web_Development">
+            <br>
+            Information System : <input type="radio" name="course" value="Information_System">
+            <br>
+            IT Network : <input type="radio" name="course" value="IT_Network">
+            <br>
+            Library : <input type="radio" name="course" value="Library">
+            <br>
+            Digital Media : <input type="radio" name="course" value="Digital_Media">
+            <br>
             
             <h2>LIST OF CCA CLUBS IN POLITEKNIK BRUNEI</h2>
             <p>Student Can Only Join Up To THREE(3) CCA Per Semester</p>

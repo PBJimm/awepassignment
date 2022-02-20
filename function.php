@@ -7,6 +7,7 @@
             $studentId = $_POST['studentId'];
             $studentEmail = $_POST['studentEmail'];
             $school = $_POST['school'];
+            $intake = $_POST['intake'];
             $course = $_POST['course'];
             
             echo "
