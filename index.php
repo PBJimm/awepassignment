@@ -30,7 +30,7 @@
                             <?php if(isset($empty_course)) { ?>
                                 <p><?php echo $empty_course ?></p>
                            <?php } ?>
-            <input type="submit" value="Submit" name="submit">
+            <input type="submit" value="Submit" name="submit" action="ccalist.php">
             <input type="reset" value="reset" name="reset">  
      
         </form>
